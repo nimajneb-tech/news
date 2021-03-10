@@ -3,29 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5030B825F7BA38009D632F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5030B725F7BA38009D632F /* AppCoordinator.swift */; };
+		1B7E264125F7E23A0063F465 /* ImageViewUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E264025F7E23A0063F465 /* ImageViewUrl.swift */; };
 		1B9203F425F1208B00D2D5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9203F325F1208B00D2D5D3 /* AppDelegate.swift */; };
 		1B9203F625F1208B00D2D5D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9203F525F1208B00D2D5D3 /* SceneDelegate.swift */; };
-		1B9203F825F1208B00D2D5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9203F725F1208B00D2D5D3 /* ViewController.swift */; };
+		1B9203F825F1208B00D2D5D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9203F725F1208B00D2D5D3 /* HomeViewController.swift */; };
 		1B9203FB25F1208B00D2D5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9203F925F1208B00D2D5D3 /* Main.storyboard */; };
 		1B9203FE25F1208B00D2D5D3 /* PlandayApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B9203FC25F1208B00D2D5D3 /* PlandayApplication.xcdatamodeld */; };
 		1B92040025F1208C00D2D5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9203FF25F1208C00D2D5D3 /* Assets.xcassets */; };
 		1B92040325F1208C00D2D5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B92040125F1208C00D2D5D3 /* LaunchScreen.storyboard */; };
+		1B92041325F1215500D2D5D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B92041225F1215500D2D5D3 /* DetailViewController.swift */; };
+		1B92041725F1216B00D2D5D3 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B92041625F1216B00D2D5D3 /* ArticleListViewModel.swift */; };
+		1B92041A25F1217700D2D5D3 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B92041925F1217700D2D5D3 /* ArticleViewModel.swift */; };
+		1B92042025F1219F00D2D5D3 /* ArticlesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B92041F25F1219F00D2D5D3 /* ArticlesModel.swift */; };
+		1B92042425F12ABD00D2D5D3 /* ArticleDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B92042325F12ABD00D2D5D3 /* ArticleDataRepository.swift */; };
+		1B92043125F6743100D2D5D3 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B92043025F6743100D2D5D3 /* ArticleTableViewCell.swift */; };
+		B9F074EF00C7EAB82428A12C /* Pods_PlandayApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6E75862A09E4C9C6A921C6 /* Pods_PlandayApplication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B5030B725F7BA38009D632F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		1B7E264025F7E23A0063F465 /* ImageViewUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewUrl.swift; sourceTree = "<group>"; };
 		1B9203F025F1208B00D2D5D3 /* PlandayApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlandayApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9203F325F1208B00D2D5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B9203F525F1208B00D2D5D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1B9203F725F1208B00D2D5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B9203F725F1208B00D2D5D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1B9203FA25F1208B00D2D5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B9203FD25F1208B00D2D5D3 /* PlandayApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlandayApplication.xcdatamodel; sourceTree = "<group>"; };
 		1B9203FF25F1208C00D2D5D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B92040225F1208C00D2D5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B92040425F1208C00D2D5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B92041225F1215500D2D5D3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1B92041625F1216B00D2D5D3 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		1B92041925F1217700D2D5D3 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		1B92041F25F1219F00D2D5D3 /* ArticlesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesModel.swift; sourceTree = "<group>"; };
+		1B92042325F12ABD00D2D5D3 /* ArticleDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDataRepository.swift; sourceTree = "<group>"; };
+		1B92043025F6743100D2D5D3 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		3817A5E5EB907AED32FBEFF6 /* Pods-PlandayApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlandayApplication.debug.xcconfig"; path = "Target Support Files/Pods-PlandayApplication/Pods-PlandayApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		3E6E75862A09E4C9C6A921C6 /* Pods_PlandayApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlandayApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB86B832CBB8C34824B55295 /* Pods-PlandayApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlandayApplication.release.xcconfig"; path = "Target Support Files/Pods-PlandayApplication/Pods-PlandayApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F074EF00C7EAB82428A12C /* Pods_PlandayApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00FA93ECB898E22B5C34340A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E6E75862A09E4C9C6A921C6 /* Pods_PlandayApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B5030B625F7BA20009D632F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E263F25F7E21F0063F465 /* Extensions */,
+				1B92042F25F6740900D2D5D3 /* Components */,
+				1B92042225F12AA900D2D5D3 /* DataRepository */,
+				1B92040D25F120A000D2D5D3 /* ViewControllers */,
+				1B92040C25F1209B00D2D5D3 /* Models */,
+				1B92040B25F1209300D2D5D3 /* Viewmodels */,
+				1B5030B725F7BA38009D632F /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1B7E263F25F7E21F0063F465 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E264025F7E23A0063F465 /* ImageViewUrl.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		1B9203E725F1208B00D2D5D3 = {
 			isa = PBXGroup;
 			children = (
 				1B9203F225F1208B00D2D5D3 /* PlandayApplication */,
 				1B9203F125F1208B00D2D5D3 /* Products */,
+				E2442DF93A3610FB4282510A /* Pods */,
+				00FA93ECB898E22B5C34340A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +111,9 @@
 		1B9203F225F1208B00D2D5D3 /* PlandayApplication */ = {
 			isa = PBXGroup;
 			children = (
+				1B5030B625F7BA20009D632F /* App */,
 				1B9203F325F1208B00D2D5D3 /* AppDelegate.swift */,
 				1B9203F525F1208B00D2D5D3 /* SceneDelegate.swift */,
-				1B9203F725F1208B00D2D5D3 /* ViewController.swift */,
 				1B9203F925F1208B00D2D5D3 /* Main.storyboard */,
 				1B9203FF25F1208C00D2D5D3 /* Assets.xcassets */,
 				1B92040125F1208C00D2D5D3 /* LaunchScreen.storyboard */,
@@ -70,6 +123,57 @@
 			path = PlandayApplication;
 			sourceTree = "<group>";
 		};
+		1B92040B25F1209300D2D5D3 /* Viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				1B92041625F1216B00D2D5D3 /* ArticleListViewModel.swift */,
+				1B92041925F1217700D2D5D3 /* ArticleViewModel.swift */,
+			);
+			path = Viewmodels;
+			sourceTree = "<group>";
+		};
+		1B92040C25F1209B00D2D5D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B92041F25F1219F00D2D5D3 /* ArticlesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B92040D25F120A000D2D5D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B9203F725F1208B00D2D5D3 /* HomeViewController.swift */,
+				1B92041225F1215500D2D5D3 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B92042225F12AA900D2D5D3 /* DataRepository */ = {
+			isa = PBXGroup;
+			children = (
+				1B92042325F12ABD00D2D5D3 /* ArticleDataRepository.swift */,
+			);
+			path = DataRepository;
+			sourceTree = "<group>";
+		};
+		1B92042F25F6740900D2D5D3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1B92043025F6743100D2D5D3 /* ArticleTableViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E2442DF93A3610FB4282510A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3817A5E5EB907AED32FBEFF6 /* Pods-PlandayApplication.debug.xcconfig */,
+				EB86B832CBB8C34824B55295 /* Pods-PlandayApplication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B92040725F1208C00D2D5D3 /* Build configuration list for PBXNativeTarget "PlandayApplication" */;
 			buildPhases = (
+				CBC0CCE6B98F5C48742A2070 /* [CP] Check Pods Manifest.lock */,
 				1B9203EC25F1208B00D2D5D3 /* Sources */,
 				1B9203ED25F1208B00D2D5D3 /* Frameworks */,
 				1B9203EE25F1208B00D2D5D3 /* Resources */,
+				BAECBDBFA006930F5394C57B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,13 +241,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BAECBDBFA006930F5394C57B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlandayApplication/Pods-PlandayApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlandayApplication/Pods-PlandayApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlandayApplication/Pods-PlandayApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC0CCE6B98F5C48742A2070 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlandayApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B9203EC25F1208B00D2D5D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5030B825F7BA38009D632F /* AppCoordinator.swift in Sources */,
+				1B92043125F6743100D2D5D3 /* ArticleTableViewCell.swift in Sources */,
+				1B7E264125F7E23A0063F465 /* ImageViewUrl.swift in Sources */,
 				1B9203FE25F1208B00D2D5D3 /* PlandayApplication.xcdatamodeld in Sources */,
-				1B9203F825F1208B00D2D5D3 /* ViewController.swift in Sources */,
+				1B92042425F12ABD00D2D5D3 /* ArticleDataRepository.swift in Sources */,
+				1B92041725F1216B00D2D5D3 /* ArticleListViewModel.swift in Sources */,
+				1B92041A25F1217700D2D5D3 /* ArticleViewModel.swift in Sources */,
+				1B92042025F1219F00D2D5D3 /* ArticlesModel.swift in Sources */,
+				1B9203F825F1208B00D2D5D3 /* HomeViewController.swift in Sources */,
+				1B92041325F1215500D2D5D3 /* DetailViewController.swift in Sources */,
 				1B9203F425F1208B00D2D5D3 /* AppDelegate.swift in Sources */,
 				1B9203F625F1208B00D2D5D3 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +443,7 @@
 		};
 		1B92040825F1208C00D2D5D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3817A5E5EB907AED32FBEFF6 /* Pods-PlandayApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +462,7 @@
 		};
 		1B92040925F1208C00D2D5D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB86B832CBB8C34824B55295 /* Pods-PlandayApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
