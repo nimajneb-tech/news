@@ -27,6 +27,10 @@ class ArticleViewModel {
         return article.articleDescription
     }
     
+    var displayContent: String {
+        return article.content
+    }
+    
     var displaySource: String {
         return article.source.name
     }

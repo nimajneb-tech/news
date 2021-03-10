@@ -19,7 +19,7 @@ class ArticleTableViewCell: UITableViewCell {
     
     let articleTitle: UILabel = {
         let label = UILabel()
-        label.textColor = .black
+        label.textColor = .white
         label.font = UIFont.systemFont(ofSize: 16)
         
         return label
@@ -27,7 +27,7 @@ class ArticleTableViewCell: UITableViewCell {
     
     let articlePublisedDate: UILabel = {
         let label = UILabel()
-        label.textColor = .lightGray
+        label.textColor = .black
         label.font = UIFont.systemFont(ofSize: 12)
         
         return label
@@ -36,10 +36,20 @@ class ArticleTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
+        let containerView = UIView()
+        containerView.backgroundColor = .systemBlue
+        containerView.alpha = 0.7
+        contentView.addSubview(containerView)
         contentView.addSubview(arcticleImageView)
-        contentView.addSubview(articleTitle)
-        contentView.addSubview(articlePublisedDate)
+        containerView.addSubview(articleTitle)
+        containerView.addSubview(articlePublisedDate)
         
+        containerView.snp.makeConstraints { (make) in
+            make.top.equalToSuperview()
+            make.leading.equalToSuperview()
+            make.trailing.equalToSuperview()
+            make.bottom.equalTo(articlePublisedDate).offset(5)
+        }
         articleTitle.snp.makeConstraints { (make) in
             make.top.equalToSuperview().offset(10)
             make.leading.equalToSuperview().offset(10)
@@ -53,7 +63,7 @@ class ArticleTableViewCell: UITableViewCell {
         }
         
         arcticleImageView.snp.makeConstraints { (make) in
-            make.top.equalTo(articlePublisedDate.snp.bottom).offset(5)
+            make.top.equalTo(containerView.snp.bottom).offset(10)
             make.height.equalTo(150)
             make.leading.equalToSuperview()
             make.bottom.equalToSuperview().inset(10)
