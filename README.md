@@ -1,4 +1,4 @@
-# Small applikation that shows a few news
+# Small news application
 
 ## Build up with MVVM Architecture
 
