@@ -1,6 +1,6 @@
-# planday
+# Small applikation that shows a few news
 
-Uses snapkit for UI
+## Build up with MVVM Architecture
 
 Uses RxSwift
 
