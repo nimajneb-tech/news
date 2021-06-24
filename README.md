@@ -4,5 +4,3 @@
 
 - Reactive with RxSwift
 - UI build up with SnapKit
-
-run pod install
